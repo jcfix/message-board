@@ -4,7 +4,7 @@
       <form>
         <div class="form-group">
           <label for="book">Novel</label>
-          {{input value=book id="book" class="form-control" placeholder=question.book}}
+          {{input value=question.book id="book" class="form-control"}}
         </div>
 
         <div class="form-group">
@@ -14,12 +14,12 @@
 
         <div class="form-group">
           <label for="author">Your Name</label>
-          {{input value=author id="author" class="form-control" placeholder=question.author}}
+          {{input value=question.author id="author" class="form-control"}}
         </div>
 
         <div class="form-group">
           <label for="message">Add further details</label>
-          {{input value=message id="message" class="form-control" placeholder=question.message}}
+          {{input value=question.message id="message" class="form-control"}}
         </div>
 
         <button class="waves-effect waves-light btn"{{action 'update' question}}>UPDATE</button>
