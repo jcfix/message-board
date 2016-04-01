@@ -1,4 +1,4 @@
-# Message-board
+# Question-Forum
 
 A web application designed as a question forum where users can post questions, edit posts, and reply to other questions in the forum.
 
@@ -14,7 +14,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <https://github.com/jcfix/message-board.git>` this repository
+* `git clone https://github.com/jcfix/message-board.git`
 * change into the new directory
 * `npm install`
 * `bower install`
