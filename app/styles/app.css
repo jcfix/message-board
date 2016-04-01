@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|Cantarell|Satisfy);
+
+/*----Navbar----*/
+
+.nav-title {
+  font-family: 'Satisfy', cursive;
+  margin-left: 2%;
+  font-size: 38px;
+  color: #FAFAFA;
+}
+
+nav, ul li a {
+  font-family: 'Satisfy', cursive;
+  font-size: 18px;
+  color: #FAFAFA;
+}
+
+nav {
+  background-color: #C5CAE9;
+  opacity: 0.9;
+}
+
+.page-wrapper {
+  background-image: url('/img/bg1.png') cover no-repeat;
+}
