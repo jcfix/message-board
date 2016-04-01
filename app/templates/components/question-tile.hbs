@@ -2,9 +2,9 @@
   {{#link-to 'question' question.id}}
   <h4>{{question.book}}</h4>
   <h5>"{{question.question}}"</h5>
+  {{/link-to}}
   <hr>
   <h6>Posted By: {{question.author}}</h6>
-  {{/link-to}}
   {{update-question question=question update="update"}}
   <button class="waves-effect waves-light btn"{{action 'delete' question}}>DELETE</button>
 </div>
