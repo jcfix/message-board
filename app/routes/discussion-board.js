@@ -18,6 +18,10 @@ export default Ember.Route.extend({
       });
       question.save();
       this.transitionTo('discussion-board');
+    },
+    destroyQuestion(question) {
+      question.destroyRecord();
+      this.transitionTo('discussion-board');
     }
   }
 });
