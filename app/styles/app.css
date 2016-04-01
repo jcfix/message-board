@@ -6,13 +6,25 @@
   font-family: 'Satisfy', cursive;
   margin-left: 2%;
   font-size: 38px;
-  color: #FAFAFA;
+  color: #365E83;
+  text-decoration: none;
+}
+
+.nav-title:hover {
+  text-decoration: none;
+}
+
+nav, ul li a:hover {
+  text-decoration: none;
+  /*background-color: transparent;*/
+  /*transition: all 400ms ease;*/
 }
 
 nav, ul li a {
   font-family: 'Satisfy', cursive;
   font-size: 18px;
-  color: #FAFAFA;
+  color: #365E83;
+  text-decoration: none;
 }
 
 nav {
@@ -20,10 +32,6 @@ nav {
   opacity: 0.9;
 }
 
-body {
-  /*background: url('/img/bg1.png') cover no-repeat;*/
-  /*background-color: #7986CB;*/
-}
 
 /*---Index.hbs---*/
 
@@ -34,18 +42,31 @@ body {
 }
 
 .header h1 {
+  font-family: 'Satisfy', cursive;
   font-size: 38px;
-  color: black;
+  color: #CE94C3;
+  /*background-color: #CE94C3;*/
+
 }
 
-.header h5 {
+.header h4 {
   padding-bottom: 10px;
-  color: black;
+  color: #365E83;
 }
 
 .text-background {
   margin-top: 10%;
-  /*background-color: white;
-  opacity: 0.9;*/
   padding: 28px;
+}
+
+#btnDiscuss {
+  margin-top: 4%;
+  background-color: transparent;
+  background-color: #CE94C3;
+  color: white;
+}
+
+#btnDiscuss:hover {
+  color: white;
+  background-color: #CACFEB;
 }
