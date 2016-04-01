@@ -1,7 +1,7 @@
 {{#if updateQuestionForm}}
   <h3>Edit this Question</h3>
     <div class="container">
-      <form>
+      <form id="editQuestion">
         <div class="form-group">
           <label for="book">Novel</label>
           {{input value=question.book id="book" class="form-control"}}
@@ -9,7 +9,7 @@
 
         <div class="form-group">
           <label for="question">Question</label>
-          {{input value=userQuestion id="question" class="form-control" placeholder=question.question}}
+          {{input value=question.question id="question" class="form-control" placeholder=question.question}}
         </div>
 
         <div class="form-group">

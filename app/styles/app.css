@@ -70,3 +70,21 @@ nav {
   color: white;
   background-color: #CACFEB;
 }
+
+#addNewQuestion {
+  width: 200px;
+  height: 100px;
+}
+
+#addNewQuestion label {
+  font-size: 14px;
+}
+
+#addNewQuestion input {
+  font-size: 12px;
+}
+
+#editQuestion {
+  width: 200px;
+  height: 100px;
+}
