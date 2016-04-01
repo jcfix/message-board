@@ -1,8 +1,17 @@
 <div class="container">
-  <h5>Novel: {{model.book}}</h5>
-  <h6>Posted By: {{model.author}}</h6>
-  <hr>
-  <h5>"{{model.question}}"</h5>
+  <h4>"{{model.question}}"</h4>
   <h5>{{model.message}}</h5>
+  <h6>Posted By: {{model.author}}</h6>
+
+{{question=model}}
+
+
+  <div class="answers">
+    <h4>Answers:</h4>
+    {{#each model.answers as |answer|}}
+      {{answer-tile answer=answer}}
+    {{/each}}
+  </div>
+
 
 </div>
