@@ -2,7 +2,11 @@
     "book": "Persuasion",
     "question": "How would you describe Lady Russell? Does her friendship with and mentoring of Anne influence Anne's decisions?",
     "author": "Lyla Bird",
-    "message": "Lady Russell has been a close friend and mentor to Anne. Can their close relationship lay any claim to Anne's decisions?"
+    "message": "Lady Russell has been a close friend and mentor to Anne. Can their close relationship lay any claim to Anne's decisions?",
+    "answers": [{
+      "author": "Tilda Merristone",
+      "response": "I think Anne was very much guided by Lady Russell in her youth, but learned to trust her own instincts in Persuasion."
+      }]
   }, {
     "book": "Sense and Sensibility",
     "question": "Which sister do you feel best embodies the words 'sense' and 'sensability'?",
@@ -12,7 +16,12 @@
     "book": "Emma",
     "question": "Are Emma's actions towards Harriet Smith truly well-intentioned or are they something less altruistic?",
     "author": "Jean Cypress",
-    "message": "Is Emma a good friend to Harriet? Does she deserve Mr. Knightley criticisms on the subject?"
+    "message": "Is Emma a good friend to Harriet? Does she deserve Mr. Knightley criticisms on the subject?",
+    "answers": [{
+      "author": "Thomas O'Malley",
+      "response": "Emma weilds Harriet for her own personal gain. I think she was NOT being a good friend and Mr. Knightley was right to point this out to her."
+      }]
+
   }, {
     "book": "Pride and Prejudice",
     "question": "Jane Bennet is praised beyond measure in this book. What would you make of the story if Jane were the protagonist instead of Elizabeth?",
