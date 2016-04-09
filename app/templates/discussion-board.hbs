@@ -1,13 +1,14 @@
 <div class="container">
-  <div class="disucss-header">
-    <h2>Forum</h2>
-  </div>
+
+  <h2 class="discussion-header">Forum</h2>
+  <hr>
+  <br>
   <div class="question-postings">
-   <div class="row">
-     {{#each model as |question|}}
+    <div class="row">
+      {{#each model as |question|}}
       {{question-tile question=question update="update" destroyQuestion="destroyQuestion"}}
-     {{/each}}
-   </div>
+      {{/each}}
+    </div>
   </div>
 
   {{new-question save2="save3"}}

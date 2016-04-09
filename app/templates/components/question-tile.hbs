@@ -1,9 +1,9 @@
-<div class="col s4">
+<div class="question-list">
   {{#link-to 'question' question.id}}
-  <h5>"{{question.question}}"</h5>
+  <h5 class="question">{{question.question}}</h5>
   {{/link-to}}
-  <hr>
   <h6>Posted By: {{question.author}}</h6>
   {{update-question question=question update="update"}}
-  <button class="waves-effect waves-light btn"{{action 'delete' question}}>DELETE</button>
+  <button id="deleteBtn" class="waves-effect waves-light btn adminBtn"{{action 'delete' question}}>DELETE</button>
+  <hr>
 </div>

@@ -1,5 +1,5 @@
 {{#if updateQuestionForm}}
-  <h3>Edit this Question</h3>
+  <h5 class="edit-header">Edit Form</h5>
     <div class="container">
       <form id="editQuestion">
 
@@ -9,7 +9,7 @@
         </div>
 
         <div class="form-group">
-          <label for="author">Your Name</label>
+          <label for="author">Username</label>
           {{input value=question.author id="author" class="form-control"}}
         </div>
 
@@ -18,9 +18,9 @@
           {{input value=question.message id="message" class="form-control"}}
         </div>
 
-        <button class="waves-effect waves-light btn"{{action 'update' question}}>UPDATE</button>
+        <button class="waves-effect waves-light btn adminBtn"{{action 'update' question}}>UPDATE</button>
       </form>
     </div>
 {{else}}
-    <button class="waves-effect waves-light btn"{{action 'updateQuestionForm'}}>Edit</button>
+    <button id="updateBtn" class="waves-effect waves-light btn adminBtn"{{action 'updateQuestionForm'}}>Edit</button>
 {{/if}}
