@@ -103,7 +103,7 @@ nav, li {
   margin-top: 20px;
 }
 
-.edit-header {
+.form-header {
   text-align: center;
 }
 
@@ -113,4 +113,15 @@ nav, li {
 
 .question:hover {
   color: #E0E0E0;
+}
+
+#newQuestionBtn {
+  top: 50%;
+  transform: translateY(-50%);
+  margin-bottom: 12px;
+}
+
+#newQuestionBtn:hover {
+  background-color: #E0E0E0;
+  color: black;
 }
