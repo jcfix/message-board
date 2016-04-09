@@ -1,18 +1,22 @@
 <div class="container">
-  <h4>"{{model.question}}"</h4>
-  <h5>{{model.message}}</h5>
-  <h6>Posted By: {{model.author}}</h6>
-
+  <br>
+  <h5>Q: {{model.question}}</h5>
+  <p>Posted By: {{model.author}}</p>
+  <h6>{{model.message}}</h6>
+  <br>
+  <br>
   {{new-answer question=model save2="save3"}}
-
+  <br>
+  <br>
 
 
   <div class="answers">
-    <h4>Answers:</h4>
+    <h5>Answers:</h5>
     {{#each model.answers as |answer|}}
       {{answer-tile answer=answer}}
     {{/each}}
   </div>
+  <br>
 
 
 </div>

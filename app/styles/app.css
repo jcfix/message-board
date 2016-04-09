@@ -125,3 +125,13 @@ nav, li {
   background-color: #E0E0E0;
   color: black;
 }
+
+/***** QUESTION PG *****/
+
+.answers {
+  padding-bottom: 12px;
+}
+
+.bold {
+  font-weight: bold;
+}
