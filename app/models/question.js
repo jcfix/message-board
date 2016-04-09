@@ -6,4 +6,9 @@ export default DS.Model.extend({
   message: DS.attr(),
   date: DS.attr(),
   answers: DS.hasMany('answer', {async: true})
+
+  favoritesList: Ember.inject.service(),
+  inList: Ember.computed('favoritesList.questions.[]', function() {
+    return this.get('favoritesList').includes(this);
+  })
 });
