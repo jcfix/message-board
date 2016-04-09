@@ -1,14 +1,17 @@
 { "questions": [{
     "question": "Do you agree that Gandalf is a Maia, meaning that his spirit exists as long as Arda exists?",
     "author": "balrog229",
-    "message": "Specifically referring to the testing of Gandalf's mortality in his encounter with the Balrog in The Fellowship."
+    "message": "Specifically referring to the testing of Gandalf's mortality in his encounter with the Balrog in The Fellowship.",
+    "timestamp": ""
   }, {
     "question": "How do the stories of Beren and Luthien compare to Aragorn and Arwen?",
     "author": "hound_of_valinor",
-    "message": "Tixë lasta maquetta né ëar, eru uë tixë yarra engwa. Linwelë caimassë nurtalom nal ep, úcarë remba tengwelë sac as. Cenda ronyo mornië cu toa. Hwarma aiquen haloitë sín é, nostalë caimassë mac ep, sá sanga cumna lor. Nu avá onóro aratar, coa mi nessa vëaner tengwanda."
+    "message": "Tixë lasta maquetta né ëar, eru uë tixë yarra engwa. Linwelë caimassë nurtalom nal ep, úcarë remba tengwelë sac as. Cenda ronyo mornië cu toa. Hwarma aiquen haloitë sín é, nostalë caimassë mac ep, sá sanga cumna lor. Nu avá onóro aratar, coa mi nessa vëaner tengwanda.",
+    "timestamp": ""
   }, {
     "question": "How intelligent was Shelob?",
     "author": "pippin4prez",
-    "message": "Aryon amaurëa cenvéla ëa hep, íta talan tárië vórima ëa, ai sat cotë tanwë aráto. Ré aica atacar áya. Sa not ilma mear, cëa cu sulier venessë carcassë, tehto almien alatúvëaúra rer lú. Vië ré nimba elendë. Ava up horta rotelë, vi hos heri lanat, sai na linta aryon úquétima. Histë laito ta lëo, tó yúyo hala caurë her, to yat lissë turma."
+    "message": "Aryon amaurëa cenvéla ëa hep, íta talan tárië vórima ëa, ai sat cotë tanwë aráto. Ré aica atacar áya. Sa not ilma mear, cëa cu sulier venessë carcassë, tehto almien alatúvëaúra rer lú. Vië ré nimba elendë. Ava up horta rotelë, vi hos heri lanat, sai na linta aryon úquétima. Histë laito ta lëo, tó yúyo hala caurë her, to yat lissë turma.",
+    "timestamp": ""
   }]
 }
