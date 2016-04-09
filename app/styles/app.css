@@ -6,6 +6,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.date {
+  font-style: italic;
+}
+
 /***** NAVBAR *****/
 nav {
   text-transform: uppercase;
