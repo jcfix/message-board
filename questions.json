@@ -1,31 +1,14 @@
 { "questions": [{
-    "book": "Persuasion",
-    "question": "How would you describe Lady Russell? Does her friendship with and mentoring of Anne influence Anne's decisions?",
-    "author": "Lyla Bird",
-    "message": "Lady Russell has been a close friend and mentor to Anne. Can their close relationship lay any claim to Anne's decisions?",
-    "answers": [{
-      "author": "Tilda Merristone",
-      "response": "I think Anne was very much guided by Lady Russell in her youth, but learned to trust her own instincts in Persuasion."
-      }]
+    "question": "Do you agree that Gandalf is a Maia, meaning that his spirit exists as long as Arda exists?",
+    "author": "balrog229",
+    "message": "Specifically referring to the testing of Gandalf's mortality in his encounter with the Balrog in The Fellowship."
   }, {
-    "book": "Sense and Sensibility",
-    "question": "Which sister do you feel best embodies the words 'sense' and 'sensability'?",
-    "author": "Gemma Wittier",
-    "message": "Which would carry more weight for you if you were an eligible woman during this time period?"
+    "question": "How do the stories of Beren and Luthien compare to Aragorn and Arwen?",
+    "author": "hound_of_valinor",
+    "message": "Tixë lasta maquetta né ëar, eru uë tixë yarra engwa. Linwelë caimassë nurtalom nal ep, úcarë remba tengwelë sac as. Cenda ronyo mornië cu toa. Hwarma aiquen haloitë sín é, nostalë caimassë mac ep, sá sanga cumna lor. Nu avá onóro aratar, coa mi nessa vëaner tengwanda."
   }, {
-    "book": "Emma",
-    "question": "Are Emma's actions towards Harriet Smith truly well-intentioned or are they something less altruistic?",
-    "author": "Jean Cypress",
-    "message": "Is Emma a good friend to Harriet? Does she deserve Mr. Knightley criticisms on the subject?",
-    "answers": [{
-      "author": "Thomas O'Malley",
-      "response": "Emma weilds Harriet for her own personal gain. I think she was NOT being a good friend and Mr. Knightley was right to point this out to her."
-      }]
-
-  }, {
-    "book": "Pride and Prejudice",
-    "question": "Jane Bennet is praised beyond measure in this book. What would you make of the story if Jane were the protagonist instead of Elizabeth?",
-    "author": "George Hachet",
-    "message": "Do you believe Elizabeth resents Jane for her accomplishments and beauty? Do you believe she tries to distance herself from Jane in temperament so as to not be compared to her?"
+    "question": "How intelligent was Shelob?",
+    "author": "pippin4prez",
+    "message": "Aryon amaurëa cenvéla ëa hep, íta talan tárië vórima ëa, ai sat cotë tanwë aráto. Ré aica atacar áya. Sa not ilma mear, cëa cu sulier venessë carcassë, tehto almien alatúvëaúra rer lú. Vië ré nimba elendë. Ava up horta rotelë, vi hos heri lanat, sai na linta aryon úquétima. Histë laito ta lëo, tó yúyo hala caurë her, to yat lissë turma."
   }]
 }

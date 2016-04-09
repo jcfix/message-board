@@ -8,7 +8,6 @@ export default Ember.Component.extend({
     },
     update(question) {
       var params = {
-        book: this.get('question.book') ? this.get('question.book'): "",
         question: this.get('question.question') ? this.get('question.question'): "",
         author: this.get('question.author') ? this.get('question.author'): "",
         message: this.get('question.message') ? this.get('question.message'): "",
