@@ -4,9 +4,17 @@
   <p>Posted By: {{model.author}}</p>
   <h6>{{model.message}}</h6>
   <br>
+  {{#if question.inFavorites}}
+    <br>
+    <h4>You have already added this questions to your favorites!</h4>
+  {{else}}
+    <br>
+    <button id="favBtn" class="waves-effect waves-light btn adminBtn"{{action 'addToFavorites' question}}>Add to Favorites</button>
+    <br>
+  {{/if}}
+
   <br>
   {{new-answer question=model save2="save3"}}
-  <br>
   <br>
 
 
