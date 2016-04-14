@@ -1,6 +1,7 @@
 <div id="display-favorites" class="container">
-  {{#each favoritesList.questions as |question|}}
-  <p>{{#link-to 'question' question.id}}{{question.question}}{{/link-to}}</p>
+  <h4>Favorites:</h4>
+  {{#each favoritesList.questions as |currentQuestion|}}
+  <p>{{#link-to 'question' currentQuestion.id}}{{currentQuestion.question}}{{/link-to}}</p>
   <button id="removeFav"class="waves-effect waves-light btn adminBtn"{{action "removeFromFavorites" question}}>Remove From Favorites</button>
   {{/each}}
   {{total}}
