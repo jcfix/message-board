@@ -32,6 +32,7 @@ nav, li {
 }
 
 /***** INDEX *****/
+
 .overlay {
   background-image: url('https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg');
   background-repeat: no-repeat;
@@ -138,4 +139,19 @@ nav, li {
 
 .bold {
   font-weight: bold;
+}
+
+/***** FAVORITES *****/
+
+.display-favorites {
+  /*padding-bottom: 200px;*/
+  margin-top: 200px;
+}
+
+#removeFav {
+  margin-top: 200px;
+}
+
+#clearFavList {
+
 }
