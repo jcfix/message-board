@@ -17,7 +17,7 @@ export default Ember.Component.extend({
          question: this.get('question') ? this.get('question'): "",
          author: this.get('author') ? this.get('author'): "",
          message: this.get('message') ? this.get('message'): "",
-         date: momentDate,
+         date: momentDate
       };
       console.log(date);
       this.set('addNewQuestion', false);

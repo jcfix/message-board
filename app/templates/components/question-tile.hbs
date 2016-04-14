@@ -2,7 +2,7 @@
   {{#link-to 'question' question.id}}
   <h5 class="question">{{question.question}}</h5>
   {{/link-to}}
-  <h6>Posted By: {{question.author}} <span class="date">-{{moment-from-now question.date}}</span></h6>
+  <h6>Posted By: {{question.author}} <span class="date">-{{question.date}}</span></h6>
   {{popularity question}}
   {{update-question question=question update="update"}}
   <button id="deleteBtn" class="waves-effect waves-light btn adminBtn"{{action 'delete' question}}>DELETE</button>
