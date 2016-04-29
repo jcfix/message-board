@@ -1,6 +1,6 @@
-# Question-Forum
+# Lord of the Rings Q&A Forum
 
-A web application designed as a question forum where users can post questions, edit posts, and reply to other questions in the forum.
+A web application designed as a LOTR question forum where users can post questions about the books, edit posts, and reply to other questions in the forum.
 
 ## Prerequisites
 
